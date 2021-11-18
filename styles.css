@@ -6,6 +6,7 @@ html {
 h1 {
     text-align: center;
     color:white;
+    text-decoration: underline;
 }
 
 p {
@@ -50,6 +51,7 @@ a:hover {
     left: 1%;
     top: 40%;
     z-index: 1;
+    border: solid 2px black;
 }
 
 .frameh2 {
@@ -95,6 +97,8 @@ a:hover {
 	left: 45%;
     text-align: center;
     font-size: 33px;
+    background-color: lightskyblue;
+    border: solid 2px black;
 }
 
 #hiddenp1 {
@@ -120,8 +124,9 @@ a:hover {
     height: 315px;
     text-align: center;
     position: absolute;
-	top: 95%;
+	top: 93%;
 	left: 33%;
+    font-size: 25px;
 }
 
 .box1 {
@@ -137,6 +142,7 @@ a:hover {
     left: 70%;
     text-align: center;
     color:white;
+    border: solid 2px black;
 }
 
 .box1:hover {
@@ -189,6 +195,7 @@ a:hover {
     position: absolute;
     border-radius: 100%;
     overflow: hidden;
+    border: solid 2px black;
 }
 
 .sea::before {
