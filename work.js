@@ -16,3 +16,4 @@ button.onclick = function() {
     img.hidden = false;
     how.hidden = false;
 };
+

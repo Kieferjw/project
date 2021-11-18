@@ -1,9 +1,23 @@
 html {
     justify-content: center;
+    background-color: rgb(36, 35, 35);
 }
 
 h1 {
     text-align: center;
+    color:white;
+}
+
+p {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+a {
+    color: lightblue;
 }
 
 .attribute {
@@ -45,6 +59,7 @@ a:hover {
     text-align: center;
     font-size: 30px;
     text-decoration: underline;
+
 }
 
 .framep {
@@ -106,7 +121,7 @@ a:hover {
     text-align: center;
     position: absolute;
 	top: 95%;
-	left: 34%;
+	left: 33%;
 }
 
 .box1 {
