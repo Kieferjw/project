@@ -130,7 +130,7 @@ a:hover {
     display: block;
     width: 100px;
     height: 100px;
-    background-color: #0000FF;
+    background-color: lightskyblue;
     transition: width 2s, height 2s, background-color 2s, transform 2s;
     position: absolute;
     top: 48%;
@@ -170,7 +170,7 @@ a:hover {
     top: 49%;
     left: 79%;
     font-size: 30px;
-    color: lightblue;
+    color: white;
 }
 
 .transitionp2:hover {
