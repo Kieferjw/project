@@ -1,12 +1,20 @@
 html {
-    justify-content: center;
     background-color: rgb(36, 35, 35);
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
+.h1 {
     text-align: center;
     color:white;
     text-decoration: underline;
+}
+
+.title {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
 }
 
 p {
@@ -23,17 +31,19 @@ a {
 }
 
 .attribute {
-    margin: 20px;
     font-size: 20px;
     color: white;
+    padding: 0 20px;
 }
 
-header {
+.header {
     text-align: center;
     padding: 15px;
     background: lightskyblue;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 a:hover {
@@ -42,9 +52,8 @@ a:hover {
 
 .p {
     text-align: center;
-    height: 500px;
-    width: 750px;
-    margin: auto;
+    width: 500px;
+    height: 700px;
 }
 .iframe1 {
     position: absolute;
