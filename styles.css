@@ -15,22 +15,9 @@ html {
     align-items: center;
 }
 
-.main {
-    display: flex;
-    align-items: center;
-}
-
 p {
-    color: lightgray;
-    font-size: 18px;
-}
-
-h2 {
     color: white;
-}
-
-a {
-    color: lightblue;
+    font-size: 18px;
 }
 
 .attribute {
@@ -53,7 +40,7 @@ a:hover {
     color: red;
 }
 
-.p {
+.p1 {
     text-align: center;
     width: 700px;
 }
