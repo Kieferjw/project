@@ -57,6 +57,7 @@ a:hover {
     width: 600px;
     height: 500px;
     margin-left: 20px;
+    justify-content: left;
 }
 
 .p2 {
@@ -68,3 +69,4 @@ a:hover {
     flex-direction: column;
     align-items: center;
 }
+
