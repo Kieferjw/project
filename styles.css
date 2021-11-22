@@ -16,7 +16,6 @@ h2 {
 
 .title {
     display: flex;
-    align-items: flex-start;
     flex-direction: column;
     align-items: center;
 }
@@ -36,10 +35,10 @@ p {
     text-align: center;
     padding: 15px;
     background: lightskyblue;
+    justify-content: center;
     color: white;
     font-size: 20px;
     display: flex;
-    justify-content: center;
 }
 
 a:hover {
@@ -53,7 +52,6 @@ a:hover {
 
 .iframesection {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
     width: 600px;
@@ -65,3 +63,8 @@ a:hover {
     text-align: center;
 }
 
+.hiddensection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
