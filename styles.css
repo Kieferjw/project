@@ -9,9 +9,9 @@ h1 {
 }
 
 h2 {
+    text-align: center;
     color: white;
     text-decoration: underline;
-    text-align: center;
 }
 
 .title {
@@ -54,7 +54,8 @@ a:hover {
 }
 
 .item {
-    height: 600px;
+    height: 100px;
+    width: 600px;
 }
 
 .p1 {
@@ -70,3 +71,5 @@ a:hover {
 .button1 {
     font-size: 30px;
 }
+
+
