@@ -47,6 +47,26 @@ a:hover {
 
 .main {
     display: flex;
-    
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;   
+    flex-wrap: wrap;
 }
 
+.item {
+    height: 600px;
+}
+
+.p1 {
+    width: 700px;
+    text-align: center;
+}
+
+.p {
+    width: 600px;
+    text-align: center;
+}
+
+.button1 {
+    font-size: 30px;
+}
