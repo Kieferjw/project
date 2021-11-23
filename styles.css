@@ -2,7 +2,7 @@ html {
     background-color: rgb(36, 35, 35);
 }
 
-.h1 {
+h1 {
     text-align: center;
     color:white;
     text-decoration: underline;
@@ -45,28 +45,8 @@ a:hover {
     color: red;
 }
 
-.p1 {
-    text-align: center;
-    width: 700px;
-}
-
-.iframesection {
+.main {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 600px;
-    height: 500px;
-    margin-left: 20px;
-    justify-content: left;
-}
-
-.p2 {
-    text-align: center;
-}
-
-.hiddensection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    
 }
 
