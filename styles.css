@@ -47,15 +47,15 @@ a:hover {
 
 .main {
     display: flex;
-    justify-content: space-evenly;
+    flex: 1 100%;
     flex-direction: row;
     align-items: center;   
-    flex-wrap: wrap;
 }
 
 .item {
     height: 100px;
     width: 600px;
+    padding: 20px;
 }
 
 .p1 {
@@ -72,4 +72,7 @@ a:hover {
     font-size: 30px;
 }
 
-
+.patrick {
+    width: 550px;
+    height: 450px;
+}
