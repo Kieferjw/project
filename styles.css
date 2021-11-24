@@ -20,6 +20,10 @@ h2 {
     align-items: center;
 }
 
+a {
+    color: lightblue;
+}
+
 p {
     color: lightgrey;
     font-size: 18px;
@@ -47,15 +51,15 @@ a:hover {
 
 .main {
     display: flex;
-    flex: 1 100%;
+    flex: 3 100%;
     flex-direction: row;
-    align-items: center;   
+    align-items: center; 
 }
 
 .item {
     height: 100px;
     width: 600px;
-    padding: 20px;
+    padding: 17px;
 }
 
 .p1 {
@@ -72,7 +76,7 @@ a:hover {
     font-size: 30px;
 }
 
-.patrick {
+#patrick {
     width: 550px;
     height: 450px;
 }
