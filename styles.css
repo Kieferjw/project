@@ -18,7 +18,6 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: steelblue;
 }
 
 .iframe {
@@ -61,6 +60,7 @@ a:hover {
     flex-direction: row;
     align-items: center; 
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .item1 {
@@ -148,11 +148,3 @@ a:hover {
     flex-direction: column-reverse;
     align-items: center;
 }
-<<<<<<< HEAD
-
-@media all and (min-width: 600px){
-    .main{
-       flex: 1;
-   }
-=======
->>>>>>> d79d4cf8ce4b8059cf1bdb190126817b3e46ac10
