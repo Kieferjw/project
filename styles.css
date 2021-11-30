@@ -18,6 +18,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: steelblue;
 }
 
 .iframe {
@@ -59,12 +60,23 @@ a:hover {
     flex: 3 100%;
     flex-direction: row;
     align-items: center; 
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.item {
-    height: 100px;
+.item1 {
     width: 600px;
-    padding: 17px;
+    height: 500px;
+}
+
+.item2 {
+    width: 600px;
+    height: 600px;
+}
+
+.item3 {
+    width: 600px;
+    height: 600px;
 }
 
 .p1 {
@@ -137,3 +149,8 @@ a:hover {
     flex-direction: column-reverse;
     align-items: center;
 }
+
+@media all and (min-width: 600px){
+    .main{
+       flex: 1;
+   }
