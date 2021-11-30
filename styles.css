@@ -65,17 +65,20 @@ a:hover {
 
 .item1 {
     width: 600px;
-    height: 500px;
+    height: 600px;
+    margin: 5px;
 }
 
 .item2 {
     width: 600px;
     height: 600px;
+    margin: 5px;
 }
 
 .item3 {
     width: 600px;
     height: 600px;
+    margin: 5px;
 }
 
 .p1 {
