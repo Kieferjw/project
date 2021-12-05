@@ -58,26 +58,27 @@ a:hover {
     display: flex;
     flex: 3 100%;
     flex-direction: row;
-    align-items: center; 
+    align-items: stretch; 
     flex-wrap: wrap;
     justify-content: space-around;
+    text-align: center;
 }
 
 .item1 {
     width: 600px;
-    height: 600px;
+    height: 450px;
     margin: 5px;
 }
 
 .item2 {
     width: 600px;
-    height: 600px;
+    height: 480px;
     margin: 5px;
 }
 
 .item3 {
     width: 600px;
-    height: 600px;
+    height: 650px;
     margin: 5px;
 }
 
@@ -102,8 +103,9 @@ a:hover {
 }
 
 #patrick {
-    width: 550px;
-    height: 450px;
+    width: 450px;
+    height: 300px;
+    text-align: center;
 }
 
 .box1 {
