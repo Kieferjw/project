@@ -22,6 +22,8 @@ h2 {
 
 .iframe {
     border: solid 2px black;
+    width: 560px;
+    height: 315px;
 }
 
 a {
@@ -152,4 +154,26 @@ a:hover {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+}
+
+@media screen and (max-width: 725px) {
+    .p1 {
+        width: 450px;
+    }
+    .p {
+        width: 450px;
+    }
+    .item1 {
+        width: 450px;
+    }
+    .item2 {
+        width: 450px;
+    }
+    .item3 {
+        width: 450px;
+    }
+    .iframe {
+        width: 450px;
+    }
+
 }
