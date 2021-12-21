@@ -167,7 +167,7 @@ a:hover {
 
 @media screen and (max-width: 425px) {
     .p1, .item1, .item2, .item3, .p, .iframe, #patrick, .gradient, .gradienth2 {
-        width: 300px;
+        width: 325px;
     }
     .attribute {
         padding: 0px 5px;
