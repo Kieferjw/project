@@ -98,6 +98,7 @@ a:hover {
     font-size: 30px;
     border: solid 2px black;
     transition: background-color .5s;
+    background-color: darkgray;
 }
 
 .button1:hover {
@@ -166,12 +167,15 @@ a:hover {
 }
 
 @media screen and (max-width: 425px) {
-    .p1, .item1, .item2, .item3, .p, .iframe, #patrick, .gradient, .gradienth2 {
+    .p1, .item1, .item2, .item3, .p, .iframe, #patrick, .gradient {
         width: 325px;
     }
     .attribute {
         padding: 0px 10px;
         font-size: 15px;
+    }
+    .gradienth2 {
+        font-size: 3rem;
     }
 }
 
