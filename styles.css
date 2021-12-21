@@ -157,28 +157,21 @@ a:hover {
 }
 
 @media screen and (max-width: 725px) {
-    .p1 {
-        width: 450px;
-    }
-    .p {
-        width: 450px;
-    }
-    .item1 {
-        width: 450px;
-    }
-    .item2 {
-        width: 450px;
-    }
-    .item3 {
-        width: 450px;
-    }
-    .iframe {
+    .p1, .item1, .item2, .item3, .p, .iframe {
         width: 450px;
     }
     .attribute {
         padding: 0px 15px;
     }
+}
 
+@media screen and (max-width: 425px) {
+    .p1, .item1, .item2, .item3, .p, .iframe {
+        width: 300px;
+    }
+    .attribute {
+        padding: 0px 5px;
+    }
 }
 
 .pi {
